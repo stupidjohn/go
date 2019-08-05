@@ -1,8 +1,8 @@
 package codegen
 
 import (
-	"reflect"
 	"github.com/v2pro/wombat/generic"
+	"reflect"
 )
 
 func init() {
@@ -16,9 +16,9 @@ var decodeSlice = generic.DefineFunc(
 	Param("ST", "the src type to copy from").
 	ImportFunc(decodeAnything).
 	Generators(
-	"ptrSliceElem", func(typ reflect.Type) reflect.Type {
-		return reflect.PtrTo(typ.Elem().Elem())
-	}).
+		"ptrSliceElem", func(typ reflect.Type) reflect.Type {
+			return reflect.PtrTo(typ.Elem().Elem())
+		}).
 	Source(`
 {{ $decodeElem := expand "DecodeAnything" "EXT" .EXT "DT" (.DT|ptrSliceElem) "ST" .ST }}
 _, length := src.ReadListHeader()

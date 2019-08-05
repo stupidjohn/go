@@ -1,8 +1,8 @@
 package raw
 
 import (
-	"github.com/thrift-iterator/go/spi"
-	"github.com/thrift-iterator/go/protocol"
+	"github.com/stupidjohn/go/protocol"
+	"github.com/stupidjohn/go/spi"
 )
 
 type rawListEncoder struct {

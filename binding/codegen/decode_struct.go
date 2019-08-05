@@ -15,11 +15,11 @@ var decodeStruct = generic.DefineFunc(
 	Param("ST", "the src type to copy from").
 	ImportFunc(decodeAnything).
 	Generators(
-	"calcBindings", calcBindings,
-	"assignDecode", func(binding map[string]interface{}, decodeFuncName string) string {
-		binding["decode"] = decodeFuncName
-		return ""
-	}).
+		"calcBindings", calcBindings,
+		"assignDecode", func(binding map[string]interface{}, decodeFuncName string) string {
+			binding["decode"] = decodeFuncName
+			return ""
+		}).
 	Source(`
 {{ $bindings := calcBindings (.DT|elem) }}
 {{ range $_, $binding := $bindings}}

@@ -1,14 +1,14 @@
 package test
 
 import (
-	"testing"
-	"encoding/hex"
-	"github.com/stretchr/testify/require"
-	"github.com/thrift-iterator/go"
-	"fmt"
-	"github.com/thrift-iterator/go/protocol"
 	"bytes"
-	"github.com/thrift-iterator/go/general"
+	"encoding/hex"
+	"fmt"
+	"github.com/stretchr/testify/require"
+	"github.com/stupidjohn/go"
+	"github.com/stupidjohn/go/general"
+	"github.com/stupidjohn/go/protocol"
+	"testing"
 )
 
 type combination struct {
@@ -130,7 +130,7 @@ func TestPanic(t *testing.T) {
 		Ia:   12345678,
 		Lb:   []string{"a", "b", "c", "d", "1", "2", "3", "4", "5"},
 		Mc: map[string]*Foo{
-			"t1": &Foo{Sa: "sss", Ib: 987654321, Lc: []string{"1", "2", "3"}},
+			"t1": {Sa: "sss", Ib: 987654321, Lc: []string{"1", "2", "3"}},
 		},
 	}
 	_, err := thrifter.Marshal(example)

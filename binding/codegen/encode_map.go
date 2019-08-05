@@ -15,7 +15,7 @@ var encodeMap = generic.DefineFunc(
 	Param("ST", "the src type to copy from").
 	ImportFunc(encodeAnything).
 	Generators(
-	"thriftType", dispatchThriftType).
+		"thriftType", dispatchThriftType).
 	Source(`
 {{ $encodeKey := expand "EncodeAnything" "EXT" .EXT "DT" .DT "ST" (.ST|key) }}
 {{ $encodeElem := expand "EncodeAnything" "EXT" .EXT "DT" .DT "ST" (.ST|elem) }}

@@ -1,9 +1,9 @@
 package test
 
 import (
-	"testing"
 	"github.com/stretchr/testify/require"
-	"github.com/thrift-iterator/go/test"
+	"github.com/stupidjohn/go/test"
+	"testing"
 )
 
 func Test_decode_int16(t *testing.T) {

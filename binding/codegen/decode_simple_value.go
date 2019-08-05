@@ -15,13 +15,13 @@ var decodeSimpleValue = generic.DefineFunc(
 	Param("DT", "the dst type to copy into").
 	Param("ST", "the src type to copy from").
 	Generators(
-	"opFuncName", func(typ reflect.Type) string {
-		funName := simpleValueMap[typ.Kind()]
-		if funName == "" {
-			panic(typ.String() + " is not simple value")
-		}
-		return funName
-	}).
+		"opFuncName", func(typ reflect.Type) string {
+			funName := simpleValueMap[typ.Kind()]
+			if funName == "" {
+				panic(typ.String() + " is not simple value")
+			}
+			return funName
+		}).
 	Source(`
 *dst = {{.DT|elem|name}}(src.Read{{.DT|elem|opFuncName}}())
 	`)

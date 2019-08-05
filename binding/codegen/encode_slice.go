@@ -15,7 +15,7 @@ var encodeSlice = generic.DefineFunc(
 	Param("ST", "the src type to copy from").
 	ImportFunc(encodeAnything).
 	Generators(
-	"thriftType", dispatchThriftType).
+		"thriftType", dispatchThriftType).
 	Source(`
 {{ $encodeElem := expand "EncodeAnything" "EXT" .EXT "DT" .DT "ST" (.ST|elem) }}
 dst.WriteListHeader({{.ST|elem|thriftType .EXT }}, len(src))

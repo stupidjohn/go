@@ -1,10 +1,10 @@
 package codegen
 
 import (
+	"github.com/stupidjohn/go/protocol"
 	"reflect"
-	"github.com/thrift-iterator/go/protocol"
-	"strings"
 	"strconv"
+	"strings"
 )
 
 var byteArrayType = reflect.TypeOf(([]byte)(nil))

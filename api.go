@@ -1,9 +1,9 @@
 package thrifter
 
 import (
+	"github.com/stupidjohn/go/general"
+	"github.com/stupidjohn/go/spi"
 	"io"
-	"github.com/thrift-iterator/go/spi"
-	"github.com/thrift-iterator/go/general"
 )
 
 type Protocol int
@@ -44,7 +44,7 @@ type API interface {
 	WillEncode(sample ...interface{})
 }
 
-var DefaultConfig = Config{Protocol: ProtocolBinary, StaticCodegen: false}.Froze()
+var DefaultConfig = Config{Protocol: ProtocolCompact, StaticCodegen: false}.Froze()
 
 func NewStream(writer io.Writer, buf []byte) spi.Stream {
 	return DefaultConfig.NewStream(writer, buf)

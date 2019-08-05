@@ -1,11 +1,11 @@
 package test
 
 import (
-	"testing"
 	"encoding/hex"
-	"github.com/stretchr/testify/require"
-	"github.com/thrift-iterator/go"
 	"fmt"
+	"github.com/stretchr/testify/require"
+	"github.com/stupidjohn/go"
+	"testing"
 )
 
 func Test_to_json(t *testing.T) {

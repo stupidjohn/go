@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb34d777-4ffa-4667-8f3b-560532d03c87" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/codegen/binding.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/codegen/binding.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/codegen/codegen.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/codegen/codegen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/codegen/decode_binary.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/codegen/decode_binary.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/codegen/decode_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/codegen/decode_map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/codegen/decode_pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/codegen/decode_pointer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/codegen/decode_simple_value.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/codegen/decode_simple_value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/codegen/decode_slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/codegen/decode_slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/codegen/decode_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/codegen/decode_struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/codegen/encode_anything.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/codegen/encode_anything.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/codegen/encode_binary.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/codegen/encode_binary.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/codegen/encode_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/codegen/encode_map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/codegen/encode_pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/codegen/encode_pointer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/codegen/encode_simple_value.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/codegen/encode_simple_value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/codegen/encode_slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/codegen/encode_slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/codegen/encode_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/codegen/encode_struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/reflection/decode.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/reflection/decode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/reflection/decode_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/reflection/decode_map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/reflection/decode_pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/reflection/decode_pointer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/reflection/decode_simple_value.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/reflection/decode_simple_value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/reflection/decode_slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/reflection/decode_slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/reflection/decode_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/reflection/decode_struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/reflection/encode.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/reflection/encode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/reflection/encode_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/reflection/encode_map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/reflection/encode_pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/reflection/encode_pointer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/reflection/encode_simple_value.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/reflection/encode_simple_value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/reflection/encode_slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/reflection/encode_slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/reflection/encode_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/reflection/encode_struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding/reflection/unsafe.go" beforeDir="false" afterPath="$PROJECT_DIR$/binding/reflection/unsafe.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/thrifter/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/thrifter/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decoder.go" beforeDir="false" afterPath="$PROJECT_DIR$/decoder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encoder.go" beforeDir="false" afterPath="$PROJECT_DIR$/encoder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/decode.go" beforeDir="false" afterPath="$PROJECT_DIR$/general/decode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/decode_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/general/decode_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/decode_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/general/decode_map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/decode_message.go" beforeDir="false" afterPath="$PROJECT_DIR$/general/decode_message.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/decode_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/general/decode_struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/encode.go" beforeDir="false" afterPath="$PROJECT_DIR$/general/encode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/encode_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/general/encode_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/encode_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/general/encode_map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/encode_message.go" beforeDir="false" afterPath="$PROJECT_DIR$/general/encode_message.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/encode_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/general/encode_struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/general_extension.go" beforeDir="false" afterPath="$PROJECT_DIR$/general/general_extension.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/general_object.go" beforeDir="false" afterPath="$PROJECT_DIR$/general/general_object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/binary/discard.go" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/binary/discard.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/binary/iterator.go" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/binary/iterator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/binary/skip.go" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/binary/skip.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/binary/stream.go" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/binary/stream.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/compact/discard.go" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/compact/discard.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/compact/iterator.go" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/compact/iterator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/compact/skip.go" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/compact/skip.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/compact/stream.go" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/compact/stream.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/compact/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/compact/type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw/decode_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/raw/decode_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw/decode_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/raw/decode_map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw/decode_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/raw/decode_struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw/encode_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/raw/encode_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw/encode_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/raw/encode_map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw/encode_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/raw/encode_struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw/raw_extension.go" beforeDir="false" afterPath="$PROJECT_DIR$/raw/raw_extension.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw/raw_object.go" beforeDir="false" afterPath="$PROJECT_DIR$/raw/raw_object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spi/spi.go" beforeDir="false" afterPath="$PROJECT_DIR$/spi/spi.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/api/api_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/api_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/api/binding_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/binding_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/api/generated.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/generated.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/api/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/api/raw_message_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/raw_message_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/api/shortcut_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/shortcut_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/combinations.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/combinations.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_0/bool_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_0/bool_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_0/enum_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_0/enum_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_0/enum_test/Player.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_0/enum_test/Player.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_0/float64_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_0/float64_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_0/int16_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_0/int16_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_0/int32_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_0/int32_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_0/int64_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_0/int64_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_0/int8_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_0/int8_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_0/int_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_0/int_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_0/level_0_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_0/level_0_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_0/uint16_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_0/uint16_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_0/uint32_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_0/uint32_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_0/uint64_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_0/uint64_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_0/uint8_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_0/uint8_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_0/uint_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_0/uint_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_1/binary_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_1/binary_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_1/level_1_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_1/level_1_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_1/list_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_1/list_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_1/map_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_1/map_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_1/pointer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_1/pointer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_1/string_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_1/string_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_1/struct_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_1/struct_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_1/struct_test/TestObject.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_1/struct_test/TestObject.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/level_2_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/level_2_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/list_of_list_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/list_of_list_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/list_of_map_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/list_of_map_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/list_of_string_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/list_of_string_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/list_of_struct_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/list_of_struct_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/list_of_struct_test/TestObject.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/list_of_struct_test/TestObject.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/map_of_list_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/map_of_list_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/map_of_map_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/map_of_map_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/map_of_string_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/map_of_string_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/map_of_struct_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/map_of_struct_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/map_of_struct_test/TestObject.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/map_of_struct_test/TestObject.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/message_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/message_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/struct_complex_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/struct_complex_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/struct_of_list_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/struct_of_list_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/struct_of_list_test/TestObject.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/struct_of_list_test/TestObject.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/struct_of_map_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/struct_of_map_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/struct_of_map_test/TestObject.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/struct_of_map_test/TestObject.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/struct_of_pointer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/struct_of_pointer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/struct_of_pointer_test/StructOf1Ptr.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/struct_of_pointer_test/StructOf1Ptr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/struct_of_pointer_test/StructOf2Ptr.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/struct_of_pointer_test/StructOf2Ptr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/struct_of_string_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/struct_of_string_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/struct_of_string_test/TestObject.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/struct_of_string_test/TestObject.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/struct_of_struct_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/struct_of_struct_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/level_2/struct_of_struct_test/TestObject.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/level_2/struct_of_struct_test/TestObject.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="559">
+              <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+              <folding>
+                <element signature="e#18#112#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="564">
+              <caret line="288" column="65" selection-start-line="288" selection-start-column="65" selection-end-line="288" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/general/general_object.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protocol/protocol.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spi/spi.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protocol/compact/iterator.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="131" column="39" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/binding/reflection/decode.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="699">
+              <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/binding/reflection/decode_simple_value.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="102" column="31" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/binding/reflection/decode_struct.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="e#20#109#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>github.com/thrift-iterator</find>
+      <find>decoderOf</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>github.com/stupidjohn</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/api.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/go.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-437" />
+    <option name="y" value="132" />
+    <option name="width" value="1569" />
+    <option name="height" value="871" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-437" y="132" width="1569" height="871" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11067452" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+          <folding>
+            <element signature="e#18#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binding/reflection/decode_simple_value.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="102" column="31" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/compact/iterator.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="131" column="39" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spi/spi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binding/reflection/decode_struct.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#20#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binding/reflection/decode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="288" column="65" selection-start-line="288" selection-start-column="65" selection-end-line="288" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general/general_object.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/protocol.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

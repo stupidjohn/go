@@ -1,9 +1,9 @@
 package general
 
 import (
+	"github.com/stupidjohn/go/protocol"
+	"github.com/stupidjohn/go/spi"
 	"reflect"
-	"github.com/thrift-iterator/go/spi"
-	"github.com/thrift-iterator/go/protocol"
 )
 
 type Extension struct {

@@ -1,8 +1,8 @@
 package raw
 
 import (
+	"github.com/stupidjohn/go/spi"
 	"reflect"
-	"github.com/thrift-iterator/go/spi"
 )
 
 type Extension struct {

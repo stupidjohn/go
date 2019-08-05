@@ -1,8 +1,8 @@
 package codegen
 
 import (
-	"reflect"
 	"github.com/v2pro/wombat/generic"
+	"reflect"
 )
 
 func init() {
@@ -16,11 +16,11 @@ var decodeMap = generic.DefineFunc(
 	Param("ST", "the src type to copy from").
 	ImportFunc(decodeAnything).
 	Generators(
-	"ptrMapElem", func(typ reflect.Type) reflect.Type {
-		return reflect.PtrTo(typ.Elem().Elem())
-	}, "ptrMapKey", func(typ reflect.Type) reflect.Type {
-		return reflect.PtrTo(typ.Elem().Key())
-	}).
+		"ptrMapElem", func(typ reflect.Type) reflect.Type {
+			return reflect.PtrTo(typ.Elem().Elem())
+		}, "ptrMapKey", func(typ reflect.Type) reflect.Type {
+			return reflect.PtrTo(typ.Elem().Key())
+		}).
 	Source(`
 {{ $decodeKey := expand "DecodeAnything" "EXT" .EXT "DT" (.DT|ptrMapKey) "ST" .ST }}
 {{ $decodeElem := expand "DecodeAnything" "EXT" .EXT "DT" (.DT|ptrMapElem) "ST" .ST }}

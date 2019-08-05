@@ -1,8 +1,8 @@
 package spi
 
 import (
+	"github.com/stupidjohn/go/protocol"
 	"io"
-	"github.com/thrift-iterator/go/protocol"
 	"reflect"
 )
 

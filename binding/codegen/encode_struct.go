@@ -15,12 +15,12 @@ var encodeStruct = generic.DefineFunc(
 	Param("ST", "the src type to copy from").
 	ImportFunc(encodeAnything).
 	Generators(
-	"calcBindings", calcBindings,
-	"assignEncode", func(binding map[string]interface{}, encodeFuncName string) string {
-		binding["encode"] = encodeFuncName
-		return ""
-	},
-	"thriftType", dispatchThriftType).
+		"calcBindings", calcBindings,
+		"assignEncode", func(binding map[string]interface{}, encodeFuncName string) string {
+			binding["encode"] = encodeFuncName
+			return ""
+		},
+		"thriftType", dispatchThriftType).
 	Source(`
 {{ $bindings := calcBindings .ST }}
 dst.WriteStructHeader()

@@ -1,9 +1,9 @@
 package reflection
 
 import (
+	"github.com/stupidjohn/go/protocol"
+	"github.com/stupidjohn/go/spi"
 	"unsafe"
-	"github.com/thrift-iterator/go/spi"
-	"github.com/thrift-iterator/go/protocol"
 )
 
 type internalDecoder interface {
@@ -20,7 +20,7 @@ func (decoder *valDecoderAdapter) Decode(val interface{}, iter spi.Iterator) {
 }
 
 type internalDecoderAdapter struct {
-	decoder spi.ValDecoder
+	decoder           spi.ValDecoder
 	valEmptyInterface emptyInterface
 }
 
@@ -63,7 +63,7 @@ func (encoder *ptrEncoderAdapter) ThriftType() protocol.TType {
 }
 
 type internalEncoderAdapter struct {
-	encoder spi.ValEncoder
+	encoder           spi.ValEncoder
 	valEmptyInterface emptyInterface
 }
 

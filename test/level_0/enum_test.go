@@ -1,10 +1,10 @@
 package test
 
 import (
-	"testing"
 	"github.com/stretchr/testify/require"
-	"github.com/thrift-iterator/go/test"
-	"github.com/thrift-iterator/go/test/level_0/enum_test"
+	"github.com/stupidjohn/go/test"
+	"github.com/stupidjohn/go/test/level_0/enum_test"
+	"testing"
 )
 
 func Test_unmarshal_enum(t *testing.T) {

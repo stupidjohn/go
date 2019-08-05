@@ -2,8 +2,8 @@ package compact
 
 import (
 	"fmt"
-	"github.com/thrift-iterator/go/protocol"
-	"github.com/thrift-iterator/go/spi"
+	"github.com/stupidjohn/go/protocol"
+	"github.com/stupidjohn/go/spi"
 	"io"
 	"math"
 )
